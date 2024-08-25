@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <p id="join"></p>
+    <p id="firstpop"></p>
+    <p id="secondpop"></p>
+    <p id="a"></p>
+    <p id="push"></p>
+
+    <script>
+      var colors=["red","blue","green","yellow","orange"]
+      document.getElementById("join").innerHTML=colors.join("@#@")
+      document.getElementById("firstpop").innerHTML=colors.pop()
+      document.getElementById("secondpop").innerHTML=colors.pop()
+      document.getElementById("a").innerHTML=colors
+      document.getElementById("push").innerHTML=colors.push("black")
+      document.getElementById("a").innerHTML=colors
+    </script>
+</body>
+</html>
